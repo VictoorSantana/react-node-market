@@ -1,0 +1,84 @@
+.dos-body {
+    background-color: #040205;
+  }
+  .dos-text {
+    color: #ffffff;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 13px;
+  }
+  .dos-err {
+    background-color: #7a070c;
+  }
+  .dos-field {
+    background-color: #060182;
+    border: none;
+    padding: 2px 3px;
+    font-family: 'Press Start 2P', cursive;
+    color: #ffffff;
+    font-size: 13px;
+    height: 23px;
+  }
+  .dos-field:disabled {
+    background-color: #040205;
+  }
+  .dos-field:focus {
+    outline: none;
+    background-color: #20872b;
+  }
+  .dos-btn {
+    background-color: #060182;
+    border: none;
+    padding: 3px;
+    font-family: 'Press Start 2P', cursive;
+    color: #ffffff;
+    font-size: 13px;
+    height: 23px;
+  }
+  .dos-btn:focus {
+    outline: none;
+    background-color: #20872b;
+  }
+  .dos-border {
+    border: 2px solid #ffffff;
+  }
+  .dos-bar {
+    width: 2px;
+    height: 2px;
+    background-color: #ffffff;
+  }
+  .dos-shadow {
+    -webkit-box-shadow: 8px 8px 0px 0px rgba(74,74,74,1);
+    -moz-box-shadow: 8px 8px 0px 0px rgba(74,74,74,1);
+    box-shadow: 8px 8px 0px 0px rgba(74,74,74,1);
+  }
+  .dos-border-title {
+    background-color: #040205;
+    position: absolute;
+    left: 5px;
+    top: -5px;
+  }
+  .dos-table-container {
+    overflow-y: auto;
+  }
+  .dos-table {
+    border-collapse: collapse;
+    background-color: #060182;
+  }
+  .dos-table tr:nth-child(1) {
+      border-bottom: 2px solid #ffffff;
+  }
+  .dos-table tr td, .dos-table tr th {
+    padding: 2px;
+  }
+  .dos-modal {
+    width: 370px;
+    height: 400px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    z-index: 2;
+  }
+  
